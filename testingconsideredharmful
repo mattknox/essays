@@ -1,0 +1,14 @@
+OK, I'll step into the fray on that one. 
+
+I make N claims:
+
+   1. The properties of code that we rationally should care about are the monetary and human value that we derive from writing, reading, or using it.
+   2. tests are code, subject to the same issues as other code. (Brooks' N-lines/day limit, bugs, occasional uselessness, etc.)
+   3. tests are therefore terribly expensive-they are, after all, lines of code, and I have not seen nonanecdotal evidence that having tests magically makes you write your normal code faster.
+   4. tests provide essentially no value in the use of software, except when they are used as (very) poor-man's documentation.
+   5. In allowing software to be read by people other than the writers, tests are good, but probably not as good as documentation.
+   6. so whatever value tests provide, it's almost exclusively in the writing of code.  Specifically, having a test suite can provide some protection from bugs, and can help you write software in a different way.  
+   7. a substantial percentage of all coding, particularly the most interesting and valuable part, is exploratory in nature
+   8. most forms of testing are actively harmful to exploratory coding, in proportion to the degree to which the coding is exploratory
+   9. testing is vastly overrated, particularly in the ruby community
+
