@@ -1,0 +1,8 @@
+I just recently signed up to give an internal talk at Sermo.  One of my proposed talks is called "Enterprise Isn't".  This is an early cut at that talk.
+
+The term "Enterprise" has been blurred and conflated with other things to the point where it is, I think, actively harmful-it confuses more than it illuminates.  
+
+I've heard people refer to the following things as Enterprise apps:  internal company software made by large businesses (eg., insurance companies, banks, etc.), trading systems (eg. for stock, derivatives, etc.), internet-scale systems (eg. google, yahoo, amazon, ebay, facebook) inter-business glop pipes (stuff to flush clods of XML from one enterprise to another), large multi-app databases, and piddling-sized restricted-entry social networks internal to companies.  
+
+About the only thing that these have in common other than being software written by humans is that there is something "big" about them.  But the source of the bigness is wildly variable:  Google has ridiculous scale-zillions of servers, users, concurrent connections, etc..  Because of this, it makes sense for them to spend insane amounts of effort on really small things, like making the results a tiny fraction more valid, or doing google suggest, or trying to push the failure rate down into the statistical noise.  Random hedge-fund X's internal trading system is only big in that it is attached to a company in an industry that feels big-the number of users is tiny, they need less that 50% uptime because they can shut down the system every night, and the user interface can be horrid because it's just not worth doing the million little bits of work that define a great user interface for an app that will never pass 50 concurrent users.  
+
