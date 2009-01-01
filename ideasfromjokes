@@ -1,7 +1,5 @@
-A guy at work kept making the joke that goaloc should be able to just say 
+I write an app generator, goaloc, that compiles from a very terse description of a web application to an actual app.  One of my coworkers jokes that he should just be able to say 
 
 goaloc blog
 
-and be done.
-
-He intended this as a joke, but it's actually a great idea.  Lots of apps are essentially mashups of smaller, simpler apps that people have made, so it would be kinda cool to be able to throw an app together from a bunch of 
+and be done, with a newly generated blog.  This is obviously silly, except that it isn't.  A large number of apps have very similar featuresets:  photo galleries, blogs, wikis, status update queues, etc.  Code generators like restful-authentication in rails have demonstrated that a full-stack MVC widget has at least some utility, and I believe the concept could be much more useful.  In particular, this sort of component is extremely powerful in the REST world.  
