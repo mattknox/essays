@@ -12,3 +12,10 @@ I make N claims:
    8. most forms of testing are actively harmful to exploratory coding, in proportion to the degree to which the coding is exploratory
    9. testing is vastly overrated, particularly in the ruby community
 
+===================================================
+
+Re 4:
+
+That's just simply not true.  Tests also provide, for lack of a better term, a stupid filter.  By definining some specific criteria that you code has to accommodate, you can protect your code from the less cogent of your peers (in a collaborative environment), or from your own stupid ommissions.
+
+You may take the contortionist position that proper documentation would alleviate those problems, but human readable documentation doesn't have a script runner that spits out ERRORs in people's faces.  (also, helps to pinpoint -where- a problem occurs as well.)
