@@ -1,0 +1,27 @@
+A guy named Tim Fitz described the deploy infrastructure at IMVU, which apparently deploys every time there is a checkin that passes their large test suite.  A couple people on YCnews are dismissive, which surprised me-isn't YCNews supposed to be filled with startup-flavored folks?  In any case, as risk tolerance goes, this is nothing: we did this at jango.com, without QA or a test suite, and IIUC facebook did it without either also, and neither of us seemed to have any significant ill effects.  It's Just Not That Hard (tm, patent pending).  There are probably things that shouldn't be done this way, but I can't think of any offhand.  Further, I suspect that any shop doing this will stomp any shop not doing this through the floor, all other things being equal.  It always boggles my mind that it's not more common-it produced a measured 4x+ improvement in feature velocity about every time I tried it.  I do think that Fitz's deployment infrastructure is fascinating, though-that'd make it substantially less risky.
+
+
+http://timothyfitz.wordpress.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/
+http://timothyfitz.wordpress.com/2009/02/08/continuous-deployment/
+
+As risk tolerance goes, this is nothing: we did this at jango, without QA or a test suite, and facebook did it without either also, and neither of us had any significant ill effects.  It's Just Not That Hard (tm, patent pending).  And further, any shop doing this will stomp any shop not doing this through the floor, all other things being equal.  It always boggles my mind that it's not more common-it produced a measured 4x+ improvement in feature velocity about every time I tried it.  I do think that his deployment infrastructure is fascinating, though-that'd make it basically free of risk.
+
+This scenario is actually exactly what I'm talking about when I ask biz owners to consider the following thought experiment:
+
+"""
+Imagine that your developers could be faster if you abandon planning.  Obviously the biz side presently likes planning, so presumably they'd have to be substantially faster.  How much faster would they have to be for you to take the trade, and get faster while abandoning planning? 10%?  50%?  2x?
+"""
+
+Usually, they just aren't interested in the question at all, which is fascinating to me-I've never understood if this is just evidence that I'm an awful communicator, or what.  If they consider it at all, then they don't take the trade until somewhere around 5x, which is lunacy-at 4x improvement, they'll get everything that they planned to in a year done in the first quarter, which means that they can promise it tomorrow and then do the customary ~3 months of tap-dance until it actually ships.
+
+
+
+
+This scenario is actually exactly what I'm talking about when I ask biz owners to consider the following thought experiment:
+
+"""
+Imagine that your developers could be faster if you abandon scheduling, release planning, code freezes, etc..  Obviously every biz person I've ever met likes planning, so presumably they'd have to be substantially faster.  How much faster would they have to be for you to take the trade, and get faster while abandoning planning? 10%?  50%?  2x?
+"""
+
+Usually, they just aren't interested in the question at all, which is fascinating to me-I've never understood if this is just evidence that I'm an awful communicator, or what.  If they consider it at all, then they don't take the trade until somewhere around 5x, which is lunacy-at 4x improvement, they'll get everything that they planned to in a year done in the first quarter, which means that they can promise it tomorrow and then do the customary ~3 months of tap-dance until it actually ships.
+e
