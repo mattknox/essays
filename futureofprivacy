@@ -1,0 +1,8 @@
+It's worth considering privacy in the larger context of security-there are many similarities, and a few instructive differences.  
+
+Much like security, privacy suffers from a great deal of intuition shear-the corrolation between how much we think something matters and how much it actually matters is very small.  In the case of security, this is best exemplified by FMD-with which a small team of attackers could anonymously, safely and easily infect most of the US beef cattle population over the course of a few weeks, causing up to $20B in disruption for a few thousand dollars in airfare, car rentals, and cattle auction admissions.  In privacy, one of the biggest offenders is the SSN.  It's allegedly secret, but is given out constantly to random shady characters like real estate brokers and college admissions offices.  I once held in my hands a half-inch thick book with student names, home addresses, SSN, and birthdays.  It contained the information of anyone who had gone through NYU housing in the last 5-10 years, and it would have been trivial for me or anyone who came into the publicly available office to grab a copy and make off with it.  The value of the information wouldn't decline much, so it would have been easy to wait 10 years and then use the credit history of a few thousand NYU Stern graduates.  No one worries much about this, strangely enough.
+
+On the other hand, people tend to worry a great deal about the privacy implications of things on the continuum from adware to malware, which is probably mostly misguided.
+
+One major difference between security and privacy is that security tends to be more recoverable than some kinds of privacy.  Once information is public, it is usually not 
+
