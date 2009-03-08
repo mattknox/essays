@@ -1,0 +1,48 @@
+This is currently an almost stream-of-consciousness proto-essay.  I really should edit it together and see where it takes me.  
+
+It's easy to deride as fools people who install random ad-supported software.  After all, who but a fool would fall for a 419 scam, or get a "free" screensaver at the price of years of popup ads?  In the case of common offenders for adware-bait software (screensavers, browser toolbars, etc.),  though, there really is a better way, in which people who _desperately_ need that screensaver of inspirational sayings can get what they want, the developers of such apps can be paid, and a huge amount of useless labor can be freed.  
+
+I've spent a lot more time thinking about adware than anyone ever should.  I find it ethically distasteful, and economically ineffecient, particularly in its current incarnation.  However, the current awful state of the adware market represents a tremendous opportunity-ironically, mostly for microsoft.  Expoiting this opportunity would have at least 3 effects:  it would make consumers a lot happier, would free up a bunch of clever systems-level coders who currently work in adware to implement something more useful, and it would draw a very well-defined line between people who write apps that are supported by adware and active malware writers (botnet system authors).  As a side effect, it'll probably also make someone hugely wealthy.
+
+The term adware is somewhat unfortunate, in that it is applied to such a broad category of things.  The web-browser Opera came in a free, google ads supported version for some time.  It's pretty hard to argue that that isn't adware, but it's also pretty hard to argue that it's evil.  On the other end of the spectrum are headless adclients, bits of software that are installed at someone's behest (in the worst cases, through exploits of browser vulnerabilities), and show scare ads that attempt to frighten users into buying some lame antivirus package or similar.  That is also adware, and is pretty hard to justify as a good thing.  The continuum doesn't end there, either:  google search is web-based adware, and on the ugly end, it's difficult to distinguish aggressive adclients from botnet clients.
+
+Many people think that if only the world switched to OS X, or their favorite distribution of Linux, then the problem would be solved.  That's attractive, but wrong.  The current crop of vulnerabilities would mostly no longer be valid, so companies looking to install through exploits would have to go find new tricks, but even in the unlikely event that no such tricks could be found, adware would still exist, because people will still want stupid screensavers, will still want them for free, and will be willing to type in their password to get them.  
+
+
+Microsoft could fairly easily create an API for displaying popup ads on windows boxes.  The benefits of doing so would be substantial-they would be able to let the user find out on whose behalf the ad was popped, and would be in a good position to ensure that ads containing browser exploits would not last long.  They also would be able to sell excess inventory, potentially with their own sophisticated targeting.  If they combined these they could almost immediately divide the adware market in half:  the companies that wanted to be legitimate would use the MSFT APIs, and those who didn't would not.  
+
+It's interesting that by providing a legitimate way to do show ads, MSFT would be able to partition a formerly continuous market into mostly-legitimate and mostly-illegitimate segments.  The same principle could work with the apps that adware companies use as bait:  it would be fairly trivial to write a declarative framework for screensavers or many other classes of tchochkes that people want.  Then instead of writing a little screensaver app, the screensaver developer would write something like:
+
+serve_ads :delay => 1.hour 
+loop "pic1.png", "pic2.png" ...  transitions => :dissolve
+
+and be done with both their screensaver and the ad display to monetize it.  
+
+IE could know how to handle apps of this sort, such that a user could click to install, and not have to deal with scary warnings about downloading executable content from the net, because this isn't unrestricted content-its capabilities are limited by the screensaver-definition language in which it was written.  
+
+The potential ad traffic from this is monsterous-it would be 100% of the person-in-front-of-screen time of >90% of the world's PC users.  In fact, it's potentially bigger than that-one could make a screensaver that showed ads.  
+
+The first objection I usually hear when I tell people this idea is that surely no-one would opt in.  That may well be true for the peer group of the person voicing doubts, but obviously the net in general has no shortage of people willing to accept ads in return for free software, even if the risks are unknown and uninstalling may be nearly impossible.
+
+
+
+part would write apps in the extremely high-level domain-specific language for screensavers and then use the MSFT API for displaying ads, and the other part would 
+
+
+They would also be able to make it easy to uninstall whatever app popped the ad.  It would also be pretty trivial for them to write information-gathering stuff, much like google desktop search, that would track what people had seen, or establish context for ads.  
+
+groups in consideration:
+consumers
+app writers
+adware companies
+advertisers
+msft
+
+
+snippets from killring:
+an IE toolbar that tells them the number of shopping days until christmas, or a
+
+MSFT already has a sort of poor-man's adsense as part of MSN search.
+
+with a data-driven system for generating, say, screensavers, 
+
