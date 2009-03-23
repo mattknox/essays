@@ -1,0 +1,8 @@
+nil-punning and laziness are mutually exclusive.  <= really?
+
+nice collection interface:
+
+conj count seq
+
+really interesting-you can have the list (1 2 3 <lazy list starts here>)
+most stream libs have lazy-cons, lazy-car, lazy-cdr, etc. clojure doesn't need them. 
