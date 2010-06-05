@@ -5,4 +5,6 @@ nice collection interface:
 conj count seq
 
 really interesting-you can have the list (1 2 3 <lazy list starts here>)
-most stream libs have lazy-cons, lazy-car, lazy-cdr, etc. clojure doesn't need them. 
+most stream libs have lazy-cons, lazy-car, lazy-cdr, etc. clojure doesn't need them.
+
+destructuring is exceptionally powerful, and the clojure collections libraries are also.
