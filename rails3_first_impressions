@@ -1,0 +1,12 @@
+The install of rails3 was rather painful, but that is perhaps an artifact of the fact that I have a rats-nest developer environment right now:  default mac ruby/gem/rails, ports, homebrew, cider, etc..  I should probably blow away the whole thing and start from a clean slate soon.
+
+Application templates are really interesting, and exceptionally powerful.  I put the following in a file:
+apply "http://gist.github.com/187990.txt"
+apply "http://gist.github.com/187993.txt"
+
+and run:
+rails APP_NAME filename
+
+to get rails to apply those  two templates in series.  This means you can stitch together a bunch of templates, which should make it very easy to generate custom generators out of small, modular parts.
+
+http://benscofield.com/2009/09/application-templates-in-rails-3/
