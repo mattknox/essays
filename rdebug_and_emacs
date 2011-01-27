@@ -1,0 +1,7 @@
+tl;dr - with proper setup, emacs has amazing integration with the ruby debugger.  It changed the way I write ruby.
+
+Smalltalk is known, to the extent that it is known at all, for having a spectacular debugging environment-you can do the standard debugger things like look at stack frames, look at values of things, poke new values into them, etc., but you can also edit the code live, redefining methods as you go.  It's a qualitatively different experience of working with code than most debuggers, and something I miss when I'm working in most languages.
+
+In particular, working in the ruby debugger is nowhere near as nice-it technically can do all of the above hotness, but the amount of code you can see at any given time is tiny, and you have to constantly flip back and forth between an editor and a shell, remembering to tell the debugger to reload the files each time, to actually use the live-editing features.  It's so much harder that I rarely used the debugger in development.
+
+But it turns out that emacs rdebug support is so good that it's almost as good as smalltalk.  Running rdebug from ansi-term gives you a standard debugger prompt, with gdb-like up, down, next, step, etc. commands, but your current position within the running program is tracked and emacs opens whatever files contain that source, putting your cursor on the actual line you're currently executing.  Further, you can configure your rdebug to automatically pick up edits to the files in question, so true development in the debugger is possible.  This is badass.
