@@ -1,0 +1,15 @@
+from a quora question: (http://www.quora.com/Why-dont-all-programming-languages-use-Lisp-syntax)
+The question "why don't all languages use lisp syntax" can be taken two ways:  first- "why don't all languages use nothing but prefix operators and ()s?"  and second- "why don't all languages use a primarily sexp-based syntax?"
+
+The answer to the first is as jambon says above: using other symbols is just too convenient.  In fact, it is so convenient that both scheme and common lisp use several other symbols: "`" for quasiquotation, "," for unquoting, ",@" for splicing unquote, and "'" for quotation (and arguably " itself for string literals).  Arc and clojure ( the most successful recent lisps) take this much farther and introduce more syntax, for anonymous functions, etc.
+
+So pretty much no one would want to use a "pure" sexp lisp.  I want to be able to write:
+(map (lambda (x) `(define (,x f b) (a ,x b))) '(foo bar)) and not have to use quote, quasiquote, unquote, etc.
+
+In fact, I'd rather be able to use some more syntax sugar and write:
+
+(map [`(def (,_ f b) (a ,_ b))] '(foo bar))
+
+The answer to the second ("why not mostly lispy syntax then?") is substantially historical.  At least when teaching kids, the less syntax the faster they learn.  So forth works great for teaching kids, scheme is OK, and python/C/ruby is a disaster.  But once an adult has learned a programming language, it's easy for them to learn another that's pretty similar.  The Algol family of languages had a monster success in C-which could just as easily have been a sexp language ( in fact, it would be easier from a technical point of view-the parser for a C-syntax language is a nontrivial chunk of work, particularly with the tools available in the early 70s).  Many programming languages have explicitly made their syntax "C-like" ever since.
+
+
