@@ -1,0 +1,1 @@
+avi bryant posed an interesting problem to me today: what is the shortest code you can write to tell how many days there are in a nonleap-year month?  answer: def d(m);m==2?28:30+(m*1.126).to_i%2 end
