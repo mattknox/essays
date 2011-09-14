@@ -1,0 +1,6 @@
+If you have an app that is a bigass collection of services, how should you compose them? IE, how do you tell service A that once it has done something, it needs to tell service B?  Offhand, I can think of the following fairly obvious answers:
+
+-enterprise service bus
+-registry
+-inline in each individual service, code in the relevant calls.
+-pub-sub event-based system
