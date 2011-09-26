@@ -1,6 +1,8 @@
 avi bryant posed an interesting problem to me today: what is the shortest code you can write to tell how many days there are in a nonleap-year month?
 
-answers: def d(m);m==2?28:30+(m*1.126).to_i%2 end (ruby)
+answers:
+
+def d(m);m==2?28:30+(m*1.126).to_i%2 end (ruby)
 
 : d ( m -- i )  ; (finish factor when I have time)
 
