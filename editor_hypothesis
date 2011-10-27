@@ -1,0 +1,3 @@
+What would make the ideal text editor/programmer environment?
+
+My first thought is emacs with more polish, but that isn't quite right, because emacs requires a fair degree of meta-work, within the editor itself.  Also, vim seems to be somewhat faster as an editor proper, and the crazy autocomplete/syntax fixing of things like eclipse seem powerful.  Finally, paredit has shown me how powerful structure editing can be, even when it is only modestly correct.
