@@ -1,0 +1,24 @@
+today I was a facilitator at Coderetreat, which was a really cool event.  A bunch of coders got together and tried to write Conway's game of life 6 different times in 45 minutes each time, pairing with different people each time and writing it in different ways.  Some people did a lot of testing, some did not, and some of them never succeeded.  It was fascinating to see some of the weird things people did: one put her entire program in an rspec file, one did it entirely without "if" statements, etc.  (interestingly, the ifless version was extremely elegant-see below:
+
+#ifless version
+class Game:
+  def __init__(self):
+    self.cells = []
+
+  def neighbors(self, cell):
+    x, y = cell
+    return [(x-1, y-1), (x, y-1), (x+1, y-1), (x-1, y), (x+1, y), (x-1,y+1), (x, y+1), (x+1, y+1)]
+
+  def next(self):
+    neighbor_count = {}
+
+    for center in self.cells:
+      for cell in self.neighbors(center):
+        neighbor_count[cell] = neighbor_count.get(cell, 0) + 1
+
+  def alive(cell):
+    n = neighbor_count[cell]
+    return n == 3 or (cell in self.cells and n == 2)
+
+  self.cells = list(set(filter(alive, self.cells +
+  reduce(list.__add__, map(self.neighbors, self.cells)))))
