@@ -1,0 +1,5 @@
+@kmx proposed libdist, which would be a library that would allow one to make any system high-availability.  This idea of solving the distributed systems problems in one place is very attractive.  How would I go about doing it?
+
+1: make a single-protocol interface to which clients would connect, and have a set of clients that connect to the backing servers.  The distservers would have a configuration file that would specify things like what the sharding function is, etc..  This would make stateful connections hard/impossible to proxy, but that might be OK.  An example of a server done this way is dbslayer by the NYT, using HTTP as the protocol.
+
+2: make it a transparent proxy a la mysqlproxy, so clients can connect to it in their native protocol.
