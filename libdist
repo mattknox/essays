@@ -2,4 +2,9 @@
 
 1: make a single-protocol interface to which clients would connect, and have a set of clients that connect to the backing servers.  The distservers would have a configuration file that would specify things like what the sharding function is, etc..  This would make stateful connections hard/impossible to proxy, but that might be OK.  An example of a server done this way is dbslayer by the NYT, using HTTP as the protocol.
 
-2: make it a transparent proxy a la mysqlproxy, so clients can connect to it in their native protocol.
+2: make it a transparent proxy a la mysqlproxy, so clients can connect to it in their native protocol.  finagle does this also.
+
+3: push the smarts down into the client, like memcached
+
+
+It seems to me that the transparent proxy approach is basically the right solution, in that someone who was previously connecting to a single instance of whatever can connect to a distserver with minimal changes.  Sadly, this does mean that substantial effort will have to be expended for each new server-type supported, although the actual distributed-systems logic can be isolated.
