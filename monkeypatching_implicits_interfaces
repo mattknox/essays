@@ -13,15 +13,15 @@ class Numeric
   end
 end
 
-This is one of the more maligned aspects of ruby programming, but the need to enhance other people's types is pretty widespread-the same thing shows up in scala via implicits and go interfaces.
+This is one of the more maligned aspects of ruby programming, but the desire to enhance other people's datatypes is pretty widespread-the same thing shows up in scala via implicits and go interfaces.
 
 Scala implicts seem insanely complicated to me, but the core is that one can load an implicit which maps A->B into a context and then call methods on a thusly enhanced A, like so:
 
-import com.blah.DaysAgo // this includes an implicit mapping int=>richInt or similar
+import com.blah.DateMath // this includes an implicit mapping int=>richInt or similar
 
 2.daysAgo => returns a DateTime object, but there is no daysAgo method on integers...what happened?
 
-What happened is that there is some other class, perhaps DateTimeInteger or RichInteger or something, which has the daysAgo method.  And DaysAgo defined an implicit conversion from ints to DateTimeIntegers, so when an incompatible method was called, the scala compiler cast about for a method with the right name, and then tried to figure out the right implicit to use to convert the integer such that it was the right type to use that method.
+What happened is that there is some other class, perhaps DateTimeInteger or RichInteger or something, which has the daysAgo method.  And DateMath defined an implicit conversion from ints to DateTimeIntegers, so when an incompatible method was called, the scala compiler cast about for a method with the right name, and then tried to figure out the right implicit to use to convert the integer such that it was a type that had that method.
 
 Go has a similar feature, namely interfaces.  In go, a type satisfies a given interface if the methods on the interface are a subset of those on the method.  (Methods being the same here means that they have to have the same type signature and name.)  Since that is the only requirement, a bunch of existing code can be made to satisfy a bunch of new interfaces without touching that code: merely define the new interfaces and you're done.  Go is able to statically determine whether a given argument to a function supports a given interface, meaning that all the various things that can Read() and String() can be used as a reader.  It is also the case that if a bunch of types all have the same methods, an interface consisting of that common subset can be defined, and then new functions using that interface can be defined.
 
