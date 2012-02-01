@@ -1,0 +1,7 @@
+I don't work at pivotal, but I know several people who do, and more who did but left for one or the other of the reasons below.
+
+Pivotal is a place I have recommended to junior coders thinking about where to go for their first gig. But lots of great devs that I know would prefer not to work at any consulting firm, for the following reasons:
+
+1: Pivotal salary is great, but the maximum upside of joining/founding a startup is greater-I don't know the value of the equity the ex-pivots who work at square now hold, but it is almost certainly greater than what they would be paid over their 4-year vesting period. Risk-tolerant devs who want a lot of variance in their financial outcomes are better served joining smaller startups.
+2: Not all consulting projects are necessarily exciting-like any consulting shop, you'll sometimes work on something that is one of unfun/low impact/uninteresting. If you want to write code for consumer web that handles a billion requests a day, you probably won't find that at Pivotal.
+3: Pivotal is great for learning TDD/BDD/OO design/etc., but probably not the best place in the world to learn everything, so if you become very interested in a topic they don't do much of (maybe filesystems, VMs, hadoop, or some such) you would be best served elsewhere.
