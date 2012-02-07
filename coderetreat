@@ -22,6 +22,3 @@ class Game:
 
   self.cells = list(set(filter(alive, self.cells +
   reduce(list.__add__, map(self.neighbors, self.cells)))))
-
-
-need to try to implement one like this in ruby, and then perhaps elsewhere.
