@@ -1,0 +1,7 @@
+Gitflow is great for medium-large teams, but overly heavy for small ones.  But coding directly in master has some problems, too.  It would be nice to have a way of working that is lightweight enough for an army of one, but scales up nicely to a moderate-sized team.
+
+desiderata:
+-impose absolutely minimal overhead (ideally negative)
+-make it easy to keep master in a state where all commits pass tests/lint/whatever
+-at the same time, allow devs to commit a bunch of broken code in feature branches, as long as they fix their havok before finishing the feature
+-(extra points) preserve the sometimes-borked history longterm without polluting people's git-completion with a bunch of dead branches.
