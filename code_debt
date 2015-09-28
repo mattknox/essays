@@ -1,0 +1,6 @@
+The analogy of technical debt is widely used, but it's striking both how little people who talk about it understand debt, and how much better the analogy is than than people think.
+
+
+One feature of debt in most modern countries is bankruptcy, which is easily the least-appreciated aspect of debt in code.  People sometimes talk of "spikes" - an implementation of something done as an exploration, at a speed that does not allow for TDD and friends.  I've seen relatively long-lived, very important codebases done completely without tests, when the ultimate impact of the feature or service being implemented was unknown.  If it turned out to be a big deal, then it could be refactored or reimplemented when needed, either paying down or throwing away the debt.
+
+Another feature of debt is that it is fine to carry rather a lot of it if it is needed to finance growth.
