@@ -1,0 +1,14 @@
+I've decided to learn vim, first from vimtutorial, and then using viper, which I suspect will might be the best 
+of both the emacs and vim worlds.  Here are the things that seem to be g?eat, bad, and weird, coming from the emacs world.
+
+good:
+elegantly simple forth-like model of command composition.
+:! to call shell commands and :r !blah to insert the result of calling them is pretty great.  
+  Need to think about what is needed to do this in emacs. 
+
+bad:
+backspace doesn't delete, just moves back.
+arrow seems to insert weird characters rather than moving when in insert mode.
+backspace won't go up a line.
+oddly hard to do a series of edits within a line.
+inconsistent placement of range/motion, I think?  3dw vs. :1,3s/foo/bar/g 
