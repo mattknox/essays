@@ -1,24 +1,98 @@
-Retro-futurism confuses me.  Lots of people, including some smart ones, complain that we don't have flying cars.  Some of them don't really care about flying cars per se, and are just using it as a shorthand for saying that tech has not done enough.  I think those people are greatly underestimating the impact of the technologies we've built over the last few decades, but whatever, if you want to complain, you do you.  There are, however, people who actually want flying cars for the general population.  I can see why they might be OK for a few hobbyists, but cannot imagine why you'd want them generally available.
+Retro-futurism confuses me.  Lots of people, including some smart
+ones, complain that we don't have flying cars.  Some of them don't
+really care about flying cars per se, and are just using it as a
+shorthand for saying that tech has not done enough.  I think those
+people are greatly underestimating the impact of the technologies
+we've built over the last few decades, but whatever, if you want to
+complain, you do you.  There are, however, people who actually want
+flying cars for the general population.  I can see why they might be
+OK for a few hobbyists, but cannot imagine why you'd want them
+generally available.
 
-For clarity, I mean the typical definition of "flying car": a mass-market personally owned-and-operated vehicle that can drive on city streets and highways, and also fly.  This seems to have been the idea since Henry Ford talked about it in 1940.  It is a phenomenally bad idea.
+For clarity, I mean the typical definition of "flying car": a
+mass-market personally owned-and-operated vehicle that can drive on
+city streets and highways, and also fly.  This seems to have been the
+idea since Henry Ford talked about it in 1940.  It is a phenomenally
+bad idea.
 
-Sky Captain and the World of Tomorrow notwithstanding, there no examples of vehicles that handle two of water/land/air well, and most vehicles that try are water/air (seaplane: OK plane, fragile boat) or water/ground (mediocre-to-decent land vehicle, crappy boat) rather than air/ground.  The reason that we can make great boats and great cars but not a single vehicle that is both is that the engineering demands of sea/air/land vehicles are very different.  Having pontoons isn't so good for aerodynamics, but it's a necessary concession if you want to land on water.
+Sky Captain and the World of Tomorrow notwithstanding, there no
+examples of vehicles that handle two of water/land/air well, and most
+vehicles that try are water/air (seaplane: OK plane, fragile boat) or
+water/ground (mediocre-to-decent land vehicle, crappy boat) rather
+than air/ground.  The reason that we can make great boats and great
+cars but not a single vehicle that is both is that the engineering
+demands of sea/air/land vehicles are very different.  Having pontoons
+isn't so good for aerodynamics, but it's a necessary concession if you
+want to land on water.
 
-The difference between the needs of car and plane is particularly great.  Planes have to be light, because that means easier takeoff, smaller engine needed, greater fuel economy, etc..  Planes therefore make tons of engineering tradeoffs in favor of light weight and fragility. The result: a Cessna 140 weighs around 900 lb.  By contrast, cars have to be survivable in crashes, and adding weight isn't that big a deal-it only really hurts acceleration and hill climbing.  Therefore, cars go for strength and high weight.  Another interesting effect: a car needs to be around the mass of other cars, because when two masses undergo an approximately elastic collision, the lighter mass gets a lot more acceleration, and if humans are inside both, the ones inside the lighter mass are probably hurt more.  A Smart Car, one of the lightest around, weighs around 1600 lb.  A prius is about double that.  A collision between a prius and a cessna would not go well for the cessna or its riders.
+The difference between the needs of car and plane is particularly
+great.  Planes have to be light, because that means easier takeoff,
+smaller engine needed, greater fuel economy, etc..  Planes therefore
+make tons of engineering tradeoffs in favor of light weight and
+fragility. The result: a Cessna 140 weighs around 900 lb.  By
+contrast, cars have to be survivable in crashes, and adding weight
+isn't that big a deal-it only really hurts acceleration and hill
+climbing.  Therefore, cars go for strength and high weight.  Another
+interesting effect: a car needs to be around the mass of other cars,
+because when two masses undergo an approximately elastic collision,
+the lighter mass gets a lot more acceleration, and if humans are
+inside both, the ones inside the lighter mass are probably hurt more.
+A Smart Car, one of the lightest around, weighs around 1600 lb.  A
+prius is about double that.  A collision between a prius and a cessna
+would not go well for the cessna or its riders.
 
-This isn't a problem where things can just get better in every dimension.  More mass: more survivable in inter-vehicle crashes.  Less mass: works better as a plane.  The two goals are in the most direct conflict possible.  But it's actually worse than it seems.  Most conceptions of the flying car have assumeda very short takeoff/landing strip.  This is both a convenience and safety issue, and the best way to do it is to have the flying car be VTOL.  This is pretty hard even for just planes.
+This isn't a problem where things can just get better in every
+dimension.  More mass: more survivable in inter-vehicle crashes.  Less
+mass: works better as a plane.  The two goals are in the most direct
+conflict possible.  But it's actually worse than it seems.  Most
+conceptions of the flying car have assumeda very short takeoff/landing
+strip.  This is both a convenience and safety issue, and the best way
+to do it is to have the flying car be VTOL.  This is pretty hard even
+for just planes.
 
-Assuming you've solved the this set of problems, bravo, you've done better than anyone who has tried in the previous 75 years or so.  But you probably don't have a mass-market product-it's likely expensive as hell, and would require a pilot's license.  In fact, it's likely that it'll be much harder to fly than a normal plane, so you'd probably only want to fly it if you were a pretty expert pilot.
+Assuming you've solved the this set of problems, bravo, you've done
+better than anyone who has tried in the previous 75 years or so.  But
+you probably don't have a mass-market product-it's likely expensive as
+hell, and would require a pilot's license.  In fact, it's likely that
+it'll be much harder to fly than a normal plane, so you'd probably
+only want to fly it if you were a pretty expert pilot.
 
-That brings us to safety.  Flying cars would kill a lot of people.  While everyone has heard "air travel is extremely safe", flying-car enthusiasts tend to forget that "air travel" in that sentence refers to "groups of highly trained professional pilots flying decades-old routes in nearly empty skies with central controllers assisting and coordinating them".  Flying ad-hoc through cities under the skyline is decidedly NOT safe, which is one of several reasons there are all sorts of limits on flying near all sorts of important areas like cities, etc..  The systems the world has set up for making flying safe, like any system, have builtin assumptions about capacity that would be utterly violated by mass adoption of flying cars.
+That brings us to safety.  Flying cars would kill a lot of people.
+While everyone has heard "air travel is extremely safe", flying-car
+enthusiasts tend to forget that "air travel" in that sentence refers
+to "groups of highly trained professional pilots flying decades-old
+routes in nearly empty skies with central controllers assisting and
+coordinating them".  Flying ad-hoc through cities under the skyline is
+decidedly NOT safe, which is one of several reasons there are all
+sorts of limits on flying near all sorts of important areas like
+cities, etc..  The systems the world has set up for making flying
+safe, like any system, have builtin assumptions about capacity that
+would be utterly violated by mass adoption of flying cars.
 
-The obvious rejoinder here is that we will of course be building self-driving flying cars, so they'll be smart enough to not run into one another, won't require any skill to operate, and while we were at it, we'll also write a Sufficiently Smart Server to take the place of the air-traffic control system.
+The obvious rejoinder here is that we will of course be building
+self-driving flying cars, so they'll be smart enough to not run into
+one another, won't require any skill to operate, and while we were at
+it, we'll also write a Sufficiently Smart Server to take the place of
+the air-traffic control system.
 
-(the rejoinder to that rejoinder is, well, maybe do self-driving cars and automated air-traffic control first, then-it'll help the world and give you invaluable experience that will help with the self-flying cars.  This is typically dismissed as incrementalism.  I find that such people, dismissive of the power of increments, tend to be purveyors of excrements.)
+(the rejoinder to that rejoinder is, well, maybe do self-driving cars
+and automated air-traffic control first, then-it'll help the world and
+give you invaluable experience that will help with the self-flying
+cars.  This is typically dismissed as incrementalism.  I find that
+such people, dismissive of the power of increments, tend to be
+purveyors of excrements.)
 
-So after solving the monumental mechanical engineering challenge of building a car-plane and at least two huge software challenges (self-flying and routing), now the question is what people can do that they couldn't before.  The answer: very little.  Failure modes in planes are pretty bad and planes tend to be noisy, so cities would most likely still not allow flying cars to enter.  So OK, you'll get rid of the fossil fuel engines and have parachute systems.  Now you have the problem that batteries are heavy, raising your weight and therefore your thrust requirement.
+So after solving the monumental mechanical engineering challenge of
+building a car-plane and at least two huge software challenges
+(self-flying and routing), now the question is what people can do that
+they couldn't before.  The answer: very little.  Failure modes in
+planes are pretty bad and planes tend to be noisy, so cities would
+most likely still not allow flying cars to enter.  So OK, you'll get
+rid of the fossil fuel engines and have parachute systems.  Now you
+have the problem that batteries are heavy, raising your weight and
+therefore your thrust requirement.
 
-Even after all this is done, you'll have an energy-ineffecient car/plane that can be easily outperformed at lower cost by vehicles that do one or the other.
-
-
-(write up paragraph of the benefits of the flying car being largely illusory. eg, traffic.)
+Assuming you somehow have the nearly-infinite amount of engineering
+bandwidth to solve all of this, you'll have an energy-ineffecient
+car/plane that can be easily outperformed at lower fixed and variable
+cost by vehicles that do only one or the other.
