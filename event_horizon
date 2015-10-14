@@ -1,0 +1,5 @@
+Is thinking in terms of an event horizon useful in planning engineering?  or in startups in general?
+
+Certainly it's useful in a limited sense in engineering: if you are part of a pre-funding startup with a moderate likelihood of failing over the next 6 months, you probably shouldn't care about whether the solution you have for today's problem will last for one year or two, and should optimize entirely for speed of execution-a solution that will last at least a few months and takes 1 day to implement is much better than one that will last a year and takes a full week.
+
+I saw this in action at twitter: the service faced an existential threat of being Just Down.  So immediate fixes with short-term viability were necessary.
